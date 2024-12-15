@@ -1,0 +1,134 @@
+body {
+    background-color: darkgray;
+}
+
+.main-section {
+    width: 50%;
+    margin: auto;
+}
+
+.name-inputs {
+    display: flex;
+    gap: 35px;
+}
+
+input {
+    border: 1px solid dimgrey;
+    padding: 12px;
+    border-radius:10px;
+    box-sizing: border-box;
+}
+
+.name {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
+}
+
+.input-email:hover, .first-name:hover,
+.last-name:hover, .message:hover  {
+    border: 2px solid #004080;
+    cursor: pointer;
+}
+
+.email {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.query-style {
+    display: flex;
+    gap: 35px;
+    margin-top: 25px;
+}
+
+ .label-query {
+   margin-top: 30px;
+} 
+
+.checkboxes, .checkboxes2 {
+    display: flex;
+    border: 1px solid dimgrey;
+    border-radius:10px ;
+    width: 50%;
+    padding: 3px;
+    background-color: white;
+}
+
+.checkbox, .checkbox2 {
+    margin: 12px;
+}
+
+.message-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 25px;
+}
+
+.message {
+    height: 100px;
+}
+
+.confirm-checkbox {
+    font-size:larger;
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.bigger-checkbox {
+    width: 17px;
+}
+
+.submit {
+    margin-top: 20px;
+    background-color:darkcyan;
+    font-size: larger;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+
+    .name-inputs {
+        flex-direction: column;
+    }
+
+    .name {
+        width: 100%;
+        height: 100px;
+       
+    }
+
+    input {
+       height: 60px;
+    }
+
+    .query-style {
+        flex-direction: column;
+    }
+
+    .checkbox, .checkbox2 {
+        margin-top: 2px;
+        width: 20px;
+    }
+
+    .checkboxes {
+        height: 60px;
+        width: 100%;
+        font-size: larger;
+    }
+
+    .message {
+        height: 150px;
+    }
+}
+
+
+
